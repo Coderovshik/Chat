@@ -18,7 +18,7 @@ run-migrator:
 
 .PHONY: clean
 clean:
-	@go rm -rf bin
+	@rm -rf bin
 
 .PHONY: postgres-init
 postgres-init:
